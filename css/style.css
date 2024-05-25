@@ -1,0 +1,39 @@
+.parent {
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #ff6600;
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    border-style: dashed;
+    border-color: green;
+    background-color: #398ceb;
+}
+
+.neighbor {
+    width: 300px;
+    height: 150px;
+    border: 2px;
+    border-style: dashed;
+    border-color: red;
+    background-color: white;
+}
+
+.wrapper>.child {
+    background-color: #bc8f8f;
+}
+
+.block-bg {
+    width: 350px;
+    height: 150px;
+    border: 2px;
+    border-style: dashed;
+    border-color: red;
+    background-image: url(autumn.jpg);
+}
